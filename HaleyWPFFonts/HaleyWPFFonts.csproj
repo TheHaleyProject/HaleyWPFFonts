@@ -4,9 +4,6 @@
 	<TargetFrameworks>net461;netcoreapp3.1</TargetFrameworks>
 	<UseWPF>true</UseWPF>
     <OutputType>Library</OutputType>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>HaleyProject.snk</AssemblyOriginatorKeyFile>
 
 	  <AssemblyName>Haley.WPF.Fonts</AssemblyName>
 	  <RootNamespace>Haley.WPF.Fonts</RootNamespace>
