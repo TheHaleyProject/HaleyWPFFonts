@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+	<TargetFrameworks>net461;netcoreapp3.1</TargetFrameworks>
+	<UseWPF>true</UseWPF>
+    <OutputType>Library</OutputType>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>HaleyProject.snk</AssemblyOriginatorKeyFile>
+
+	  <AssemblyName>Haley.WPF.Fonts</AssemblyName>
+	  <RootNamespace>Haley.WPF.Fonts</RootNamespace>
+	  <Version>1.0.0</Version>
+	  <Authors>The Haley Project</Authors>
+	  <Product>Haley WPF Core</Product>
+	  <Company>TheHaleyProject</Company>
+	  <Description>A library containing some opensource fonts to be used in WPF projects.</Description>
+	  <PackageTags>WPF Haley CustomControls UILibrary</PackageTags>
+	  <RepositoryUrl>https://github.com/rmsmech/HaleyWPFFonts</RepositoryUrl>
+	  <RepositoryType>git</RepositoryType>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Copyright>Haley @ 2020</Copyright>
+	  <PackageReleaseNotes>Pilot</PackageReleaseNotes>
+	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	  <AssemblyVersion>1.0.0.0</AssemblyVersion>
+	  <FileVersion>1.0.0.0</FileVersion>
+	  <PackageIcon>Haley.png</PackageIcon>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <SignAssembly>true</SignAssembly>
+	  <AssemblyOriginatorKeyFile>HaleyProject.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\Haley.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
